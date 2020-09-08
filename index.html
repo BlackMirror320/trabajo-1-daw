@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heptacore - Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav__logo">
+            <a href="/"><img src="/img/logo.png" alt="Heptacore"></a>
+        </div>
+        <div class="nav__search">
+            <input class="input" type="text" name="search" id="search" placeholder="Buscar">
+        </div>
+        <div class="nav__menu">
+            <div class="nav__item">
+                <a class="nav__link" href="#">
+                    <span><i class="lnr lnr-cart icon"></i></span>
+                    <span class="pill">0</span>
+                </a>
+              </div>
+            <div class="nav__item">
+                <a class="nav__link" href="#"><i class="lnr lnr-user icon"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="carousel" id="portada">
+            <div class="carousel__title"><span>El carenalga</span></div>
+            <div class="carousel__overlay"></div>
+            <a href="#" class="carousel__control carousel__control--left"><</a>
+            <a href="#" class="carousel__control carousel__control--right">></a>
+            <div class="carousel__album">
+                <ul class="carousel__list">
+                    <li class="carousel__item carousel__fade"><img src="/img/carousel-1.jpg" alt="Carousel 1" class="carousel__photo"></li>
+                    <li class="carousel__item carousel__fade"><img src="/img/carousel-2.jpg" alt="Carousel 2" class="carousel__photo"></li>
+                </ul>
+            </div>
+        </div>
+        <section class="section-destacados">
+            <h2 class="heading-secondary">Productos Destacados</h2>
+            <br>
+            <div class="productos-destacados"></div>
+        </section>
+    </div>
+</body>
+<script src="/js/carrusel.js"></script>
+<script>
+    const carrusel = Carrusel("portada");
+</script>
+</html>
