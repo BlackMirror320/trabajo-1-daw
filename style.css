@@ -4,7 +4,9 @@
     --primary-color: #06AED5;
     --primary-color-dark: #086788;
     --body-color: #F9F9F9;
+    --grey-light-1: #F2F2F2;
     --grey-dark-1: #e5e5e5;
+    --grey-dark-2: #C4C4C4;
 }
 
 /* Anim */
@@ -216,6 +218,30 @@ body {
     border: none;
     border-radius: 5px;
     outline: none;
+}
+
+.input-group {
+    width: 90%;
+    color: var(--grey-dark-2);
+    border: 1px solid var(--grey-dark-2);
+    background-color: var(--grey-light-1);
+    border-radius: 5px;
+    display: flex;
+}
+
+.input-group__icon {
+    color: inherit;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid var(--grey-dark-2);
+}
+
+.input-group__input {
+    font-family: inherit;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
 }
 
 .icon {
