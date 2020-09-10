@@ -60,7 +60,6 @@ footer {
 .carousel {
     position: relative;
     height: 45vh;
-    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -324,10 +323,6 @@ footer {
 .nav__link:hover {
     color: rgb(207, 207, 207);
     text-decoration: none;
-}
-
-.content {
-    padding: .5rem;
 }
 
 
