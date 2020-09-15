@@ -297,9 +297,14 @@ footer {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 5px solid var(--primary-color-dark);
 }
 
 .nav__logo {
+    height: 8vh;
+}
+
+.nav__logo__image {
     height: 100%;
 }
 
