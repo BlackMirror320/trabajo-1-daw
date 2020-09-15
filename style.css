@@ -380,13 +380,33 @@ footer {
     text-align: center;
 }
 
-.form__content div.input-group {
+.form__content div.input-group,
+div.checkbox-group {
     margin-bottom: 1rem;
 }
 
 .submit-group {
     width: 90%;
     text-align: right;
+}
+
+.checkbox-group {
+    width: 90%;
+    text-align: left;
+    padding-left: .8rem;
+}
+
+.form__content input[type=checkbox] {
+    transform: scale(2);
+    text-align: left;
+}
+
+.checkbox-label {
+    padding-left: .8rem;
+}
+
+#terms {
+    color: var(--primary-color);
 }
 
 
