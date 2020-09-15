@@ -11,6 +11,12 @@
     --grey-dark-2: #C4C4C4;
 }
 
+/* Utilites */
+
+.center-fix {
+    margin: 0 auto !important;
+}
+
 
 /* Anim */
 
@@ -290,7 +296,7 @@ footer {
 
 .nav {
     background-color: var(--grey-light-2);
-    padding: 1rem;
+    padding: .5rem 4rem;
     color: var(--primary-color-dark);
     display: flex;
     text-align: center;
@@ -309,7 +315,7 @@ footer {
 }
 
 .nav__search {
-    width: 30vw;
+    width: 80%;
 }
 
 .nav__menu {
