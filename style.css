@@ -11,10 +11,12 @@
     --grey-dark-2: #C4C4C4;
 }
 
+
 /* Utilites */
 
 .center-fix {
-    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 
@@ -233,14 +235,6 @@ footer {
 
 /* Extras */
 
-.input {
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-}
-
 .input-group {
     width: 90%;
     color: var(--grey-dark-2);
@@ -263,6 +257,7 @@ footer {
     border: none;
     background-color: transparent;
     width: 100%;
+    padding-right: 2%;
 }
 
 .icon {
@@ -379,10 +374,19 @@ footer {
 
 .form__content {
     background-color: white;
-    padding: 1rem;
+    padding: 1rem 25%;
     height: 100%;
     margin: 1rem;
     text-align: center;
+}
+
+.form__content div.input-group {
+    margin-bottom: 1rem;
+}
+
+.submit-group {
+    width: 90%;
+    text-align: right;
 }
 
 
