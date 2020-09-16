@@ -251,6 +251,10 @@ footer {
     border-right: 1px solid var(--grey-dark-2);
 }
 
+.input-group__icon i {
+    font-size: 20px;
+}
+
 .input-group__input {
     font-family: inherit;
     outline: none;
