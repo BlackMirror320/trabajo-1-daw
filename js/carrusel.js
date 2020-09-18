@@ -25,17 +25,17 @@ const updateSlide = (anterior, n) => {
     photos[anterior].style.display = 'none';
     //Añadir clase active a foto actual
     photos[indiceCarrusel].style.display = 'inline-block';
+    setSelectorActive(anterior, indiceCarrusel);
 }
 
 /**
  * Función que actualiza los selectores del carrusel
- * 
+ * @param {Number} anterior - El selector activo
  * @param {Number} n - El numero de la diapositiva a activar
  */
-const setSelectorActive = (n) => {
-    selectores[indiceCarrusel].classList.toggle('carousel__selector--active');
-    nextFoto(n);
-    selectores[indiceCarrusel].classList.toggle('carousel__selector--active');
+const setSelectorActive = (anterior, n) => {
+    selectores[anterior].classList.toggle('carousel__selector--active');
+    selectores[n].classList.toggle('carousel__selector--active');
 }
 
 /**
